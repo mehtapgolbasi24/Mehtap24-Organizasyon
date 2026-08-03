@@ -1,0 +1,66 @@
+backend:
+  name: git-gateway
+  branch: main
+
+# Netlify Identity ile giriş yapılır, medya yüklemeleri repo içine kaydedilir
+media_folder: "images/uploads"
+public_folder: "/images/uploads"
+
+collections:
+  - name: "site"
+    label: "Site İçeriği"
+    files:
+      - file: "content.json"
+        label: "Ana Sayfa İçeriği"
+        name: "content"
+        fields:
+          - label: "Hero (Üst Bölüm)"
+            name: "hero"
+            widget: "object"
+            fields:
+              - { label: "Üst Etiket", name: "eyebrow", widget: "string" }
+              - { label: "Başlık - 1. Satır", name: "title_line1", widget: "string" }
+              - { label: "Başlık - Vurgulu Kelime", name: "title_em", widget: "string" }
+              - { label: "Başlık - 2. Satır", name: "title_line2", widget: "string" }
+              - { label: "Açıklama", name: "description", widget: "text" }
+
+          - label: "Hizmetler (Anlar)"
+            name: "moments"
+            widget: "list"
+            fields:
+              - { label: "Numara", name: "tag", widget: "string" }
+              - { label: "Başlık", name: "title", widget: "string" }
+              - { label: "Açıklama", name: "description", widget: "text" }
+
+          - label: "Süreç Adımları"
+            name: "process"
+            widget: "list"
+            fields:
+              - { label: "Numara", name: "num", widget: "string" }
+              - { label: "Başlık", name: "title", widget: "string" }
+              - { label: "Açıklama", name: "description", widget: "text" }
+
+          - label: "Galeri"
+            name: "gallery"
+            widget: "list"
+            fields:
+              - { label: "Etiket", name: "label", widget: "string" }
+              - { label: "Fotoğraf", name: "image", widget: "image", required: false }
+
+          - label: "Müşteri Yorumu"
+            name: "testimonial"
+            widget: "object"
+            fields:
+              - { label: "Yorum", name: "quote", widget: "text" }
+              - { label: "Yazan", name: "author", widget: "string" }
+
+          - label: "İletişim Bilgileri"
+            name: "contact"
+            widget: "object"
+            fields:
+              - { label: "WhatsApp (Görünen)", name: "whatsapp_display", widget: "string" }
+              - { label: "WhatsApp Numarası (ülke koduyla, boşluksuz)", name: "whatsapp_number", widget: "string" }
+              - { label: "Konum", name: "location", widget: "string" }
+              - { label: "Konum Notu", name: "location_note", widget: "string" }
+              - { label: "Instagram Kullanıcı Adı", name: "instagram", widget: "string" }
+              - { label: "Instagram Linki", name: "instagram_url", widget: "string" }
