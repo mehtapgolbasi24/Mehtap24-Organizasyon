@@ -1,0 +1,72 @@
+{
+  "hero": {
+    "eyebrow": "Erzincan & çevresi · Özel gün organizasyonu",
+    "title_line1": "Her anınızı",
+    "title_em": "hikâyeye",
+    "title_line2": "dönüştürüyoruz",
+    "description": "Düğün, nişan, kına ve doğum günlerinde; davetiyeden son ışığa kadar her detayı sizin adınıza düşünen, zarif ve kişiye özel organizasyon deneyimi."
+  },
+  "moments": [
+    {
+      "tag": "01",
+      "title": "Düğün",
+      "description": "Konsept, mekân düzeni, çiçek ve davetiyeden gün sonu koordinasyonuna kadar uçtan uca düğün planlaması."
+    },
+    {
+      "tag": "02",
+      "title": "Nişan",
+      "description": "Aile büyüklerinden genç çiftlere kadar herkesin keyif alacağı, zarif ve samimi nişan törenleri."
+    },
+    {
+      "tag": "03",
+      "title": "Kına",
+      "description": "Geleneği modern bir dokunuşla buluşturan, renk ve ışık uyumu düşünülmüş kına gecesi tasarımları."
+    },
+    {
+      "tag": "04",
+      "title": "Doğum Günü",
+      "description": "Çocuk temalı partilerden yetişkin kutlamalarına, yaşa ve zevke özel doğum günü organizasyonları."
+    }
+  ],
+  "process": [
+    {
+      "num": "01",
+      "title": "Tanışma & Dinleme",
+      "description": "Hayalinizdeki günü, bütçenizi ve önceliklerinizi birlikte konuşuyoruz. Her fikir, sizin hikâyenizin bir parçası."
+    },
+    {
+      "num": "02",
+      "title": "Konsept & Teklif",
+      "description": "Size özel bir tema, mekân ve tedarikçi önerileriyle birlikte net bir bütçe planı hazırlıyoruz."
+    },
+    {
+      "num": "03",
+      "title": "Planlama & Koordinasyon",
+      "description": "Çiçekten müziğe, davetiyeden ikramlara tüm detayları takvimliyor ve tedarikçilerle koordine ediyoruz."
+    },
+    {
+      "num": "04",
+      "title": "Gün Yönetimi",
+      "description": "Etkinlik günü sahadayız; siz anın tadını çıkarırken tüm akışı baştan sona biz yönetiyoruz."
+    }
+  ],
+  "gallery": [
+    { "label": "Düğün", "image": "" },
+    { "label": "Kına", "image": "" },
+    { "label": "Nişan", "image": "" },
+    { "label": "Doğum Günü", "image": "" },
+    { "label": "Detaylar", "image": "" }
+  ],
+  "testimonial": {
+    "quote": "Her şeyi düşünmüşlerdi; biz sadece o günün tadını çıkardık. Gözyaşlarımıza kadar her detay mükemmeldi.",
+    "author": "Bir Çift, Düğün Organizasyonu"
+  },
+  "contact": {
+    "whatsapp_display": "0546 796 41 20",
+    "whatsapp_number": "905467964120",
+    "location": "Erzincan, Türkiye",
+    "location_note": "Bölge dışına da hizmet verilir",
+    "instagram": "@mehtap24organizasyon",
+    "instagram_url": "https://www.instagram.com/mehtap24organizasyon/"
+  }
+}
